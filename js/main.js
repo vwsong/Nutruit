@@ -53,7 +53,7 @@ function fadeIn() {
 }
 
 var caloriesChart = new RadialProgressChart('.calories', {
-    diameter: 100,
+    diameter: 150,
     max: 2500,
     round: true,
     series: [{
@@ -63,13 +63,12 @@ var caloriesChart = new RadialProgressChart('.calories', {
     center: {
         content: [function (value) {
             return value
-    }, ' of 2500 calories'], //daily recommended calories
-        y: 25
+    }, ' of 2500 calories'] //daily recommended calories
     }
 });
 
 var cholesterolChart = new RadialProgressChart('.cholesterol', {
-    diameter: 100,
+    diameter: 150,
     max: 300, //300 mg max
     round: false,
     series: [{
@@ -82,7 +81,7 @@ var cholesterolChart = new RadialProgressChart('.cholesterol', {
 });
 
 var fiberChart = new RadialProgressChart('.fiber', {
-    diameter: 100,
+    diameter: 150,
     max: 25, //25mg max
     round: false,
     series: [{
@@ -95,7 +94,7 @@ var fiberChart = new RadialProgressChart('.fiber', {
 });
 
 var proteinChart = new RadialProgressChart('.protein', {
-    diameter: 100,
+    diameter: 150,
     max: 50, //50g max
     round: false,
     series: [{

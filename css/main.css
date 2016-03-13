@@ -97,21 +97,16 @@ table {}
 }
 
 .calories .rbc-center-text-line0 {
-    font-size: 65px;
+    font-size: 25px;
 }
-
-.calories .rbc-center-text-line1 {
-    font-size: 20px;
-}
-
 .cholesterol .rbc-center-text-line0 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .fiber .rbc-center-text-line0 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .protein .rbc-center-text-line0 {
-    font-size: 30px;
+    font-size: 25px;
 }
