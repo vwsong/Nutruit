@@ -8,7 +8,7 @@ function fadeIn() {
     $('#calories').text(username);
     console.log("hi");
     $.ajax({
-        url: 'https://morning-basin-19700.herokuapp.com/api/info/' + username,
+        url: 'https://polar-refuge-50216.herokuapp.com.com/api/info/' + username,
         dataType: 'json',
         success: function (json) {
             // Rates are in `json.rates`
