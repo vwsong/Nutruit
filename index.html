@@ -16,9 +16,6 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="js/main.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.js'></script>
-    <script src='https://rawgit.com/pablomolnar/radial-progress-chart/master/dist/radial-progress-chart.js'></script>
 </head>
 
 <body>
@@ -27,24 +24,23 @@
         <br/>
         <br/>
         <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <p class="mainText"><span class="mainTextBold">Nutrify</span> your food.</p>
+            <div class="col-md-8 col-md-offset-2">
+                <p class="mainText"><span class="mainTextBold">Understand</span> your food.</p>
+                <p class="mainText">Check your nutritional intake:</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-                <div class="form-group">
-                    <input type="text" placeholder="Username" class="form-control" id="usr">
-                    <br/>
-                    <a class="submitButton" onClick="fadeIn()" href="#"> &nbsp; Go &nbsp; </a>
-                </div>
+        <div class="col-md-4 col-md-offset-4">
+            <div class="form-group">
+                <input type="text" placeholder="Username" class="form-control" id="usr">
+                <br/>
+                <a class="submitButton" onClick="fadeIn()" href="#"> &nbsp; Go &nbsp; </a>
             </div>
         </div>
         <br/>
         <div class="row">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
+                    <div class="col-md-4">
                         <table id="table" class="whiteBackground table table-striped">
                             <tr>
                                 <th>Nutrient</th>
@@ -107,10 +103,21 @@
 
                         </table>
                     </div>
+                    <div class="calories col-md-3"></div>
+                    <div class="cholesterol col-md-3"></div>
+                    <div class="fiber col-md-3"></div>
+                    <div class="protein col-md-3"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+
                 </div>
             </div>
         </div>
-    </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.js'></script>
+        <script src='https://rawgit.com/pablomolnar/radial-progress-chart/master/dist/radial-progress-chart.js'></script>
+        <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300,700italic,400italic);
-
 .background1 {
     background:
     /* top, transparent black, faked with gradient */
@@ -27,9 +26,9 @@
     text-decoration: underline;
 }
 
-.row{
-    margin:0px !important;
-    padding:0;
+.row {
+    margin: 0px !important;
+    padding: 0;
 }
 
 .mainText {
@@ -62,7 +61,7 @@ table {}
 
 .whiteBackground {
     background-color: white;
-    display:none;
+    display: none;
 }
 
 .submitButton {
@@ -84,4 +83,35 @@ table {}
     color: red !important;
     border: 2px red solid;
     border-radius: 0px;
+}
+
+.rbc-label-start {
+    font-family: fontawesome;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rbc-center-text {
+    font-family: 'Roboto', 'Myriad Set Pro', 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial;
+    fill: white;
+}
+
+.calories .rbc-center-text-line0 {
+    font-size: 65px;
+}
+
+.calories .rbc-center-text-line1 {
+    font-size: 20px;
+}
+
+.cholesterol .rbc-center-text-line0 {
+    font-size: 30px;
+}
+
+.fiber .rbc-center-text-line0 {
+    font-size: 30px;
+}
+
+.protein .rbc-center-text-line0 {
+    font-size: 30px;
 }
