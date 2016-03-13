@@ -85,6 +85,10 @@ table {}
     border-radius: 0px;
 }
 
+.submitButton:visited {
+    color:white;
+}
+
 .rbc-label-start {
     font-family: fontawesome;
     font-weight: bold;
@@ -99,6 +103,7 @@ table {}
 .calories .rbc-center-text-line0 {
     font-size: 25px;
 }
+
 .cholesterol .rbc-center-text-line0 {
     font-size: 25px;
 }
