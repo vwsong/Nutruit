@@ -11,7 +11,7 @@ function fadeIn() {
     $('#calories').text(username);
     console.log("hi");
     $.ajax({
-        url: 'https://polar-refuge-50216.herokuapp.com/api/info/' + username,
+        url: 'http://cors.io/?u=https://polar-refuge-50216.herokuapp.com/api/food/'+username+'/Test',
         dataType: 'json',
         success: function (json) {
             // Rates area in `json.rates`
@@ -21,7 +21,7 @@ function fadeIn() {
 
             } else {
                 calories = Math.round(json.calories);
-                chol = Math.round(json.cholesterol);
+                chol = Math.round(json.cholersterol);
                 fiber = Math.round(json.fiber);
                 sugar = Math.round(json.sugar);
                 protein = Math.round(json.protein);
@@ -36,6 +36,10 @@ function fadeIn() {
                 proteinChart.update(protein);
 
                 console.log(calories);
+                console.log(chol);
+                console.log(fiber);
+                console.log(protein);
+                console.log(iron);
                 $('#calories').text(calories + " cal");
                 $('#chol').text(chol + " mg");
                 $('#fiber').text(fiber + " mg");
